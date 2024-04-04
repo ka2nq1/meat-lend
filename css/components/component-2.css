@@ -1,0 +1,38 @@
+.component-2 .title {
+    margin-bottom: 3rem;
+}
+
+.component-2 .top-1-text {
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 1.5rem;
+    line-height: 133%;
+    text-transform: uppercase;
+    text-align: center;
+    color: #ff6b00;
+}
+
+.component-2 .top-2-text {
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 1.5rem;
+    line-height: 133%;
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 3rem;
+}
+
+.component-2 .cont-2-img {
+    width: 100%;
+    margin-bottom: 3rem;
+}
+
+.component-2 .bottom-text {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 143%;
+    text-align: center;
+    color: #fffaf7;
+}

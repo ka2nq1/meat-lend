@@ -1,0 +1,116 @@
+header {
+    background-image: url(../../images/bg1.jpg);
+    background-size: contain;
+    padding-top: 2.7rem;
+    background-repeat: no-repeat;
+}
+
+header h1 {
+    margin-bottom: 3rem;
+}
+
+header .hero {
+    width: 100%;
+    border-radius: 6.8rem;
+    margin-bottom: 3rem;
+    pointer-events: none;
+}
+
+header .hero-text {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 1.5rem;
+    line-height: 133%;
+    text-align: center;
+    margin-bottom: 3.5rem;
+}
+
+header .special-text {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: 175%;
+    text-transform: uppercase;
+    text-align: center;
+    background: radial-gradient(172.92% 105.12% at 52.38% 28.17%, #E4C597 0%, rgb(255, 255, 255) 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 3rem;
+}
+
+header .header-bottom-wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header .price-wrap {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-bottom: 1.4rem;
+}
+
+header .new {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 5.8rem;
+    width: 16.4rem;
+    background: radial-gradient(66.98% 100.2% at 55.18% 100%, rgb(255, 107, 0) 0%, #f00 100%);
+    border: 1px solid #ff6b00;
+    border-radius: 15rem;
+}
+
+header .new p {
+    font-family: var(--third-family);
+    font-weight: 700;
+    font-size: 1.6rem;
+    line-height: 50%;
+    text-align: center;
+    color: #fff;
+    margin-bottom: -1.3rem;
+}
+
+header .new span {
+    font-size: 4rem;
+}
+
+header .old {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #383838;
+    background: #141414;
+    border-radius: 15rem;
+    width: 13.4rem;
+    height: 5.8rem;
+}
+
+header .old p {
+    font-family: var(--third-family);
+    font-weight: 700;
+    font-size: 1.6rem;
+    line-height: 74%;
+    text-align: center;
+    color: #989898;
+    margin-bottom: -1rem;
+    position: relative;
+}
+
+header .old span {
+    font-size: 2.7rem;
+}
+
+header .old p:before {
+    content: "";
+    height: 0.1rem;
+    width: 6rem;
+    transform: rotate(-17deg);
+    background: #FF0000;
+    display: block;
+    position: absolute;
+    left: -0.4rem;
+    bottom: 1rem;
+}

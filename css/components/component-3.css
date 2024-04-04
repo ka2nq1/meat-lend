@@ -1,0 +1,53 @@
+.component-3 {
+    background-image: url(../../images/bg2.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-y: 4.1rem;
+}
+
+.component-3 .title {
+    margin-bottom: 41.03rem;
+}
+
+.component-3 .author-name {
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 4.5rem;
+    line-height: 100%;
+    text-transform: uppercase;
+    text-align: center;
+    background: radial-gradient(63.43% 97.71% at 75.89% 25.41%, rgb(255, 255, 255) 0%, #FF6B00 60%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 3.5rem;
+}
+
+.component-3 ul {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.component-3 li {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 143%;
+    color: #fff;
+    position: relative;
+    padding-left: 3.3rem;
+}
+
+.component-3 li:before {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    top: 0.2rem;
+    width: 1.9rem;
+    height: 1.9rem;
+    background-image: url(../../images/author-list-mark.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
